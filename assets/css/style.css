@@ -45,20 +45,13 @@ h2{
     background-color:#dbc2a4  ;
     color: black;
     background-color:#dbc2a4  ;
-    background-position: 100%;
-
+    
 }
 
 .parcours h2{
-    border-left-width: 6px;
     border-left-style: solid;
     border-left-color: #782221;
-}
-
-.parcours h2:hover{
-    border-right-width: 8px;
-    border-right-style: solid;
-    border-right-color: #782221;
+    border-left-width: 5px;
 }
 
 
@@ -80,7 +73,15 @@ h2{
     padding-left: 25px;
     padding-right: 25px;
     background-color:#2c1d27;
+    font-family: "Raleway", sans-serif;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
     }
+
+.contact:hover{
+    text-decoration: underline;
+}
 
     .adress:hover, .email:hover, .Tel:hover{
        text-decoration: underline;
@@ -108,7 +109,7 @@ main{
     width: 300px;
     background-color: #782221;
     color: white;
-    height: 1500px;
+    height: 1230px;
     }
 
 
@@ -140,6 +141,18 @@ main{
     }
 
 
+.experiences:hover,.Compétences :hover{
+    border-right-width: 6px;
+    border-right-style: solid;
+    border-right-color: #782221;
+}
+
+.diplome:hover{
+    border-right-width: 6px;
+    border-right-style: solid;
+    border-right-color: #782221;
+
+}
    
 
 footer {
